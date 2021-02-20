@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(232, 248, 245); 
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;}  
+
+.marcofoto {border-color: teal;
+                border-width: 5px;
+                border-style: solid;
+}
+
+h2 {
+    background-color: rgb(14, 102, 85);
+    color: ivory;}
+h2+p {
+    background-color: rgb(23, 165, 137 );
+    color: ivory;}
+p {
+    background-color: rgb(206, 228, 224);
+}
+p.normal {
+    background-color: rgb(232, 248, 245); 
+}
