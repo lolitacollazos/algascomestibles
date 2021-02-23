@@ -20,3 +20,6 @@ p {
 p.normal {
     background-color: rgb(232, 248, 245); 
 }
+div {
+    width: 300px;
+}
