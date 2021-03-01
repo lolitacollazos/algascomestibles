@@ -11,7 +11,7 @@ body {
 h2 {
     background-color: rgb(14, 102, 85);
     color: ivory;
-    font-weight: bold;
+    padding: 08px;
 }
 h2+p {
     background-color: rgb(23, 165, 137 );
@@ -24,9 +24,11 @@ p.normal {
 }
 div {
     width: 300px;
-    background-color: transparent
-    padding: 60px;
+    background-color: transparent;
+    padding: 19px;
     margin: 25px;
-    border: 12px solid green
-    ;
+    border: 12px solid green;
+}
+.billones {
+    color: tomato;
 }
