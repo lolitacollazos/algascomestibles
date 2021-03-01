@@ -3,6 +3,11 @@ body {
     font-family: 'Montserrat', sans-serif;
     padding: 20px;}  
 
+h1 {text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+
 .marcofoto {border-color: teal;
                 border-width: 5px;
                 border-style: solid;
@@ -12,12 +17,16 @@ h2 {
     background-color: rgb(14, 102, 85);
     color: ivory;
     padding: 08px;
+    text-transform: uppercase;
+    letter-spacing: 00.1em;
+    text-align: center;
 }
 h2+p {
     background-color: rgb(23, 165, 137 );
     color: ivory;}
 p {
     background-color: rgb(206, 228, 224);
+    line-height: 1.4em;
 }
 p.normal {
     background-color: rgb(232, 248, 245); 
@@ -27,8 +36,9 @@ div {
     background-color: transparent;
     padding: 19px;
     margin: 25px;
-    border: 12px solid green;
+    border: 12px solid rgb(75, 121, 75);
 }
-.billones {
-    color: tomato;
+p.recuadro {
+    letter-spacing: 00.1em ;
+    text-align: center;
 }
