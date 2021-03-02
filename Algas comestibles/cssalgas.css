@@ -1,7 +1,8 @@
 body {
     background-color: rgb(232, 248, 245); 
     font-family: 'Montserrat', sans-serif;
-    padding: 20px;}  
+    padding: 20px;
+}  
 
 h1 {text-transform: uppercase;
     letter-spacing: 0.2em;
@@ -21,16 +22,29 @@ h2 {
     letter-spacing: 00.1em;
     text-align: center;
 }
+
+h2:first-letter {
+    font-size: 150%;
+}
+
 h2+p {
     background-color: rgb(23, 165, 137 );
     color: ivory;}
+
 p {
     background-color: rgb(206, 228, 224);
     line-height: 1.4em;
 }
+
 p.normal {
     background-color: rgb(232, 248, 245); 
+    text-indent: 20px;
 }
+
+p.normal:first-letter {
+font-size: 200%;
+}
+
 div {
     width: 300px;
     background-color: transparent;
@@ -38,7 +52,29 @@ div {
     margin: 25px;
     border: 12px solid rgb(75, 121, 75);
 }
+
 p.recuadro {
     letter-spacing: 00.1em ;
     text-align: center;
+}
+
+a:link {
+    color: deeppink;
+    text-decoration: none;}
+a:visited {
+        color: black;}
+a:hover {
+        color: deeppink;
+        text-decoration: underline;}
+a:active {
+        color: darkcyan;
+    }
+        
+
+div.lista {
+    width: 250px;
+    background-color: transparent;
+    padding: 10px;
+    margin: 10px;
+    border: 02px solid rgb(106, 116, 106);
 }
