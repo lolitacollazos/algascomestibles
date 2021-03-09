@@ -69,8 +69,6 @@ a:hover {
 a:active {
         color: darkcyan;
     }
-        
-
 div.lista {
     width: 250px;
     background-color: transparent;
@@ -83,3 +81,9 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+div.derecha {
+    float:right;
+}
+div.centro {
+    float:both
+}
