@@ -85,5 +85,5 @@ div.derecha {
     float:right;
 }
 div.centro {
-    float:both
+    margin: 10px auto 10px auto;
 }
